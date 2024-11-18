@@ -23,12 +23,12 @@ Administrators can manage products, orders, and users.
 ### Environment variables
 .env and add the following
 
-NODE_ENV = development
-PORT = 5000
-MONGO_URI = your mongodb uri
-JWT_SECRET = 'abcd1234'
-PAYPAL_CLIENT_ID = your paypal client id
-PAGINATION_LIMIT = 8
+- NODE_ENV = development
+- PORT = 5000
+- MONGO_URI = your mongodb uri
+- JWT_SECRET = 'abcd1234'
+- PAYPAL_CLIENT_ID = your paypal client id
+- PAGINATION_LIMIT = 8
 
 ### Install Dependencies (frontend & backend)
 npm install
